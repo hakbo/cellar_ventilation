@@ -98,7 +98,7 @@ else:                                 #nehme an wenn kein else steht heißt das 
 ###Ausgabe und Loggen der Daten
 #print(aFi,aFa,(aFi-aFa))
 data = [Ti, rFi, aFi, Ta, rFa, aFa]
-stringData = list(map(lambda x: ("%.1f" % x).replace('.',','), data))
+stringData = list(map(lambda x: ("%.1f" % x).replace('.','.'), data))
 stringTime = [time.strftime("%d.%m.%Y %H:%M")]
 stringState = [FensterState(Fensterauf)]
 formatedData = ';'.join(stringTime+stringData+stringState)
