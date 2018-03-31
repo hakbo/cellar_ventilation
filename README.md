@@ -16,3 +16,4 @@ are used for sending the mail and creating a chart
 
 temp_uw.py and templog.py do pretty much the same as keller.py and lflog.py without the second sensor and a missing actor.
 
+Fenster_open.py and Fenster_close.py are for troubleshooting only
